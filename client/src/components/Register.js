@@ -23,7 +23,6 @@ function Register() {
       validateOnChange: false,
       onSubmit : values => {
         values = Object.assign(values, {profile: file || ''})
-        console.log(values)
       }
     }
   )
